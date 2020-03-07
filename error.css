@@ -1,0 +1,51 @@
+.corner{
+    margin-left: 500px;
+}
+.top{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: black;
+    background-image: url("back4.jpg");
+    border-radius: 20px;
+    min-height: 85vh;
+}
+body{
+    background-color: cadetblue;
+    background-image: url("back3.jpg");
+}
+.Content{
+    margin-top: 100px;
+    color: white;
+    margin-left: 50px;
+} 
+.rad{
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #89dce7 0%, #85e0d1 51%, #54bddd 100%);
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+h2{
+font-family: 'Merienda One', cursive;
+
+}
+img{
+    width: 400px;
+}
+
+@media only screen and (min-width: 900px) {
+    #align{
+        width: 800px;
+        height: auto;
+        margin-left: 1100px;
+        margin-top: -250px;
+    }
+}
+
+.mat{
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+
+}
